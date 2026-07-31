@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Startup Incubation Portal</title>
+
+    <!-- Google Fonts: Sora for headings, Inter for body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===================== Simple Navbar Section ===================== -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Startup Incubation Portal</div>
+
+            <ul class="nav-links">
+                <li><a href="admin_dashboard.html">Admin Dashboard</a></li>
+            </ul>
+
+            <div class="nav-buttons">
+                <button id="logoutButton" class="btn btn-outline">Logout</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ===================== Welcome Section ===================== -->
+        <section class="hero">
+            <h1>Welcome, Admin</h1>
+            <p>Manage startup applications submitted by users.</p>
+        </section>
+
+        <!-- ===================== Statistics Cards Section ===================== -->
+        <section class="services-section">
+            <h2>Application Overview</h2>
+            <div class="services-container">
+                <div class="service-card">
+                    <h3>Total Applications</h3>
+                    <p>24</p>
+                </div>
+                <div class="service-card">
+                    <h3>Pending</h3>
+                    <p>10</p>
+                </div>
+                <div class="service-card">
+                    <h3>Approved</h3>
+                    <p>8</p>
+                </div>
+                <div class="service-card">
+                    <h3>Rejected</h3>
+                    <p>6</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== Applications Table Section ===================== -->
+        <section class="services-section">
+            <h2>All Applications</h2>
+            <table class="applications-table">
+                <thead>
+                    <tr>
+                        <th>Applicant Name</th>
+                        <th>Startup Idea</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rahul Sharma</td>
+                        <td>Smart Waste Management System</td>
+                        <td>Pending</td>
+                        <td>
+                            <button class="btn btn-primary">Approve</button>
+                            <button class="btn btn-outline">Reject</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Priya Verma</td>
+                        <td>Online Farmers Marketplace</td>
+                        <td>Approved</td>
+                        <td>Approved</td>
+                    </tr>
+                    <tr>
+                        <td>Aman Gupta</td>
+                        <td>AI-Based Study Planner</td>
+                        <td>Pending</td>
+                        <td>
+                            <button class="btn btn-primary">Approve</button>
+                            <button class="btn btn-outline">Reject</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sneha Reddy</td>
+                        <td>Campus Ride Sharing App</td>
+                        <td>Rejected</td>
+                        <td>Rejected</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <!-- ===================== Footer Section ===================== -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Startup Incubation Portal. All rights reserved.</p>
+            <p>Email: support@startupportal.com</p>
+            <ul class="footer-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- External JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup Incubation Portal</title>
+
+    <!-- Google Fonts: Sora for headings, Inter for body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===================== Navbar Section ===================== -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Startup Incubation Portal</div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-buttons">
+                <a href="login.html" class="btn btn-outline">Login</a>
+                <a href="register.html" class="btn btn-primary">Register</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ===================== Hero Section ===================== -->
+        <section class="hero">
+            <h1>Empowering Students to Build Innovative Startups</h1>
+            <p>Submit your innovative startup ideas, receive expert guidance, and take your first step toward entrepreneurship.</p>
+            <div class="hero-buttons">
+                <a href="register.html" class="btn btn-primary">Get Started</a>
+                <a href="about.html" class="btn btn-outline">Learn More</a>
+            </div>
+        </section>
+
+        <!-- ===================== About Startup Incubation Section ===================== -->
+        <section class="about-section">
+            <div class="about-text">
+                <h2>About Startup Incubation</h2>
+                <p>
+                    Our Startup Incubation Portal helps young entrepreneurs turn their
+                    ideas into reality by providing mentorship, resources, and a platform
+                    to showcase their startups.
+                </p>
+            </div>
+            <div class="about-image">
+                <img src="images/about-illustration.png" alt="Illustration of startup growth">
+            </div>
+        </section>
+
+        <!-- ===================== How It Works Section ===================== -->
+        <section class="how-it-works">
+            <h2>How It Works</h2>
+            <div class="steps-container">
+                <div class="step-card">
+                    <span class="step-number">1</span>
+                    <h3>Register</h3>
+                    <p>Create your account to get started.</p>
+                </div>
+                <div class="step-card">
+                    <span class="step-number">2</span>
+                    <h3>Submit Idea</h3>
+                    <p>Share your startup idea with us.</p>
+                </div>
+                <div class="step-card">
+                    <span class="step-number">3</span>
+                    <h3>Get Reviewed</h3>
+                    <p>Our team reviews your application.</p>
+                </div>
+                <div class="step-card">
+                    <span class="step-number">4</span>
+                    <h3>Get Approved</h3>
+                    <p>Start your journey with us.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== Our Services Section ===================== -->
+        <section class="services-section">
+            <h2>Our Services</h2>
+            <div class="services-container">
+                <div class="service-card">
+                    <h3>Mentorship</h3>
+                    <p>Guidance from experienced mentors in your field.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Networking</h3>
+                    <p>Helps you in interacting and helps in build Networking.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Workspace</h3>
+                    <p>Access to a collaborative working environment.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== Gallery Section ===================== -->
+        <section class="gallery-section">
+            <h2>Gallery</h2>
+            <div class="gallery-container">
+                <img src="images/gallery1.jpg" alt="Startup event photo 1">
+                <img src="images/gallery2.jpg" alt="Startup event photo 2">
+                <img src="images/gallery3.jpg" alt="Startup event photo 3">
+                <img src="images/gallery4.jpg" alt="Startup workspace photo">
+                <img src="images/gallery5.jpg" alt="Mentorship session photo">
+                <img src="images/gallery6.jpg" alt="Networking event photo">
+            </div>
+        </section>
+
+        <!-- ===================== Contact Section ===================== -->
+        <section class="contact-section">
+            <h2>Contact Us</h2>
+            <form class="contact-form" action="#" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- ===================== Footer Section ===================== -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Startup Incubation Portal. All rights reserved.</p>
+             <p>📧 support@startupportal.com</p>
+            <ul class="footer-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- External JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

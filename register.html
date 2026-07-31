@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Startup Incubation Portal</title>
+
+    <!-- Google Fonts: Sora for headings, Inter for body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===================== Navbar Section ===================== -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Startup Incubation Portal</div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-buttons">
+                <a href="login.html" class="btn btn-outline">Login</a>
+                <a href="register.html" class="btn btn-primary">Register</a>
+            </div>
+
+            <!-- Hamburger icon for mobile view -->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ===================== Hero Section ===================== -->
+        <section class="hero">
+            <h1>Create Your Account</h1>
+            <p>Register yourself to submit innovative startup ideas and become a part of our incubation community.</p>
+        </section>
+
+        <!-- ===================== Registration Form Section ===================== -->
+        <section class="contact-section">
+            <form class="contact-form" id="registerForm" action="php/register.php" method="POST">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Re-enter your password" required>
+
+                <button type="submit" class="btn btn-primary">Register</button>
+
+                <p>Already have an account? <a href="login.html">Login</a></p>
+            </form>
+        </section>
+
+        <!-- ===================== Benefits Section ===================== -->
+        <section class="services-section">
+            <h2>Why Join Us</h2>
+            <div class="services-container">
+                <div class="service-card">
+                    <h3>🚀 Submit Startup Ideas</h3>
+                    <p>Share your innovative ideas and get them reviewed by our team.</p>
+                </div>
+                <div class="service-card">
+                    <h3>💡 Get Expert Mentorship</h3>
+                    <p>Receive guidance from experienced mentors in your field.</p>
+                </div>
+                <div class="service-card">
+                    <h3>🤝 Connect with Innovators</h3>
+                    <p>Network with fellow entrepreneurs and industry experts.</p>
+                </div>
+                <div class="service-card">
+                    <h3>📈 Track Application Status</h3>
+                    <p>Stay updated on the progress of your startup application.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===================== Footer Section ===================== -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Startup Incubation Portal. All rights reserved.</p>
+            <p>Email: support@startupportal.com</p>
+            <ul class="footer-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- External JavaScript file -->
+    <!-- External JavaScript file -->
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard - Startup Incubation Portal</title>
+
+    <!-- Google Fonts: Sora for headings, Inter for body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===================== Simple Navbar Section ===================== -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Startup Incubation Portal</div>
+
+            <ul class="nav-links">
+                <li><a href="user_dashboard.html">Dashboard</a></li>
+            </ul>
+
+            <div class="nav-buttons">
+                <button id="logoutButton" class="btn btn-outline">Logout</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ===================== Welcome Section ===================== -->
+        <section class="hero">
+            <h1 id="welcomeMessage">Welcome, User!</h1>
+            <p>Manage your startup application from your dashboard.</p>
+        </section>
+
+        <!-- ===================== Dashboard Cards Section ===================== -->
+        <section class="services-section">
+            <h2>Your Dashboard</h2>
+            <div class="services-container">
+
+                <!-- Card 1: Application Status -->
+                <div class="service-card">
+                    <h3>Application Status</h3>
+                    <p>Current status of your startup application:</p>
+                    <span id="applicationStatus">Pending</span>
+                </div>
+
+                <!-- Card 2: My Startup Idea -->
+                <div class="service-card">
+                    <h3>My Startup Idea</h3>
+                    <p><strong>Title:</strong> Smart Waste Management System</p>
+                    <p><strong>Description:</strong> An IoT-based system to monitor and manage waste collection efficiently.</p>
+                    <p><strong>Submitted On:</strong> 15 July 2026</p>
+                </div>
+
+                <!-- Card 3: Quick Actions -->
+                <div class="service-card">
+                    <h3>Quick Actions</h3>
+                    <p>Manage your application and profile.</p>
+                    <a href="submit-idea.html" class="btn btn-primary">Submit Startup Idea</a>
+                    <a href="edit-profile.html" class="btn btn-outline">Edit Profile</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===================== Recent Activity Section ===================== -->
+        <section class="how-it-works">
+            <h2>Recent Activity</h2>
+            <div class="steps-container">
+                <div class="step-card">
+                    <h3>Application Submitted</h3>
+                    <p>Your startup idea was successfully submitted for review.</p>
+                </div>
+                <div class="step-card">
+                    <h3>Under Review</h3>
+                    <p>Your application is currently being reviewed by our team.</p>
+                </div>
+                <div class="step-card">
+                    <h3>Waiting for Approval</h3>
+                    <p>Final approval decision is pending from the admin.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===================== Footer Section ===================== -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Startup Incubation Portal. All rights reserved.</p>
+            <p>Email: support@startupportal.com</p>
+            <ul class="footer-links">
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- External JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
