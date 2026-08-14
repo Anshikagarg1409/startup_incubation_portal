@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Startup Idea - Startup Incubation Portal</title>
+
+    <!-- Google Fonts: Sora for headings, Inter for body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <!-- ===================== Simple Navbar Section ===================== -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Startup Incubation Portal</div>
+
+            <ul class="nav-links">
+                <li><a href="user_dashboard.php">Dashboard</a></li>
+            </ul>
+
+            <div class="nav-buttons">
+                <a href="logout.php" class="btn btn-outline">Logout</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ===================== Hero Section ===================== -->
+        <section class="hero">
+            <h1>Submit Your Startup Idea</h1>
+            <p>Share your idea with us and take the first step towards building your startup.</p>
+        </section>
+
+        <!-- ===================== Submit Idea Form Section ===================== -->
+        <section class="contact-section">
+            <form class="contact-form" action="submit_idea.php" method="POST">
+                <label for="startup_title">Startup Title</label>
+                <input type="text" id="startup_title" name="startup_title" placeholder="Enter your startup title" required>
+
+                <label for="startup_description">Startup Description</label>
+                <textarea id="startup_description" name="startup_description" rows="6" placeholder="Describe your startup idea" required></textarea>
+
+                <button type="submit" class="btn btn-primary">Submit Idea</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- ===================== Footer Section ===================== -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Startup Incubation Portal. All rights reserved.</p>
+            <p>Email: support@startupportal.com</p>
+            <ul class="footer-links">
+               <a href="../about.html">About</a>
+<a href="../services.html">Services</a>
+<a href="../contact.html">Contact</a>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- External JavaScript file -->
+   <script src="../script.js"></script>
+</body>
+</html>
